@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\TestProject2\\TestProject2.csproj": {}
+    "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\TestProject2\\TestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\TestProject2\\TestProject2.csproj": {
+    "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\TestProject2\\TestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\TestProject2\\TestProject2.csproj",
+        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\TestProject2\\TestProject2.csproj",
         "projectName": "TestProject2",
-        "projectPath": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\TestProject2\\TestProject2.csproj",
+        "projectPath": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\TestProject2\\TestProject2.csproj",
         "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\TestProject2\\obj\\",
+        "outputPath": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\TestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -81,8 +81,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
-                "projectPath": "C:\\Users\\tomas\\Desktop\\Test_øvning\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj"
+              "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "C:\\Users\\tomas\\Desktop\\Øvning\\Tomas3\\ConsoleApp1\\ConsoleApp1.csproj"
               }
             }
           }
