@@ -8,11 +8,11 @@ steps:
     
     commands:
       - dotnet sonarscanner begin
-         /k:"easv-devops_Tomas3_AY6KDQOyEVvRW2O60EbH" #Copy paste Fra Sonar
-         /d:sonar.host.url="http://sonar.setgo.dk:9000" #Copy paste Fra Sonar
-         /d:sonar.token="sqp_c36c4b3e956153123380c843df85ef7fa14655a6" #Copy paste Fra Sonar
-         /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml #Her fortæller vi at der er lavet en rapport, som sonarQue kan læse om test dækningen
-         /d:sonar.qualitygate.wait=true #Vent på at kvalitetsrapporten er færdig
+        /k:"easv-devops_Tomas3_AY6KDQOyEVvRW2O60EbH" #Copy paste Fra Sonar
+        /d:sonar.host.url="http://sonar.setgo.dk:9000" #Copy paste Fra Sonar
+        /d:sonar.token="sqp_c36c4b3e956153123380c843df85ef7fa14655a6" #Copy paste Fra Sonar
+        /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml #Her fortæller vi at der er lavet en rapport, som sonarQue kan læse om test dækningen
+        /d:sonar.qualitygate.wait=true #Vent på at kvalitetsrapporten er færdig
       - dotnet build --no-incremental #For at få .net til at bygge hele applikationen hver gang
       - dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml" #Nu testes der og resultatet gemmes i coverage.xml
       - dotnet sonarscanner end /d:sonar.token="sqp_c36c4b3e956153123380c843df85ef7fa14655a6" #Copy paste Fra Sonar
